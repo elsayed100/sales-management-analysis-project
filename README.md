@@ -7,7 +7,7 @@ The challenge for this data analyst project is outlined below. This has been use
 
 ## ABOUT THE DATASET:
 * The AdventureWorks database are sample databases that were originally published by Microsoft.
-* database cosist of fact tables like fACT_internet_sales and dimension tables like dim_product,dim_customer,dim_calender.
+* database cosist of fact tables like fACT_internet_sales and dimension tables like dim_product, dim_customer, dim_calender.
 * I used the AdventureWorks2019.bak file to restore database to SQL Server instance.
 
 #### Dataset link: https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms
