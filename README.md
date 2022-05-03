@@ -1,5 +1,5 @@
 # Sales Management Analysis Project
-In this project I restore .bak database to SQL server, then cleaned and transform data using sql and exported data to CSV fiels, then joining CSV fiels in Power BI data model and created a dashboard.
+In this project I restore .bak database to SQL server, then cleaned and transform data using sql language and exported data to CSV fiels, then joining CSV fiels in Power BI data model and created a dashboard.
 
 ## Busniess Problem:
 The challenge for this data analyst project is outlined below. This has been used continuously to ensure that the right data has been selected, transformed and used in the data visualization which is meant to be passed on to the business users.
@@ -10,7 +10,7 @@ The challenge for this data analyst project is outlined below. This has been use
 * database cosist of fact tables like fACT_internet_sales and dimension tables like dim_product,dim_customer,dim_calender.
 * I used the AdventureWorks2019.bak file to restore database to SQL Server instance.
 
-#### data set link: https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms
+#### Dataset link: https://docs.microsoft.com/en-us/sql/samples/adventureworks-install-configure?view=sql-server-ver15&tabs=ssms
 
 ## Project Steps:
 1. Restore .bak database to SQL Server.
