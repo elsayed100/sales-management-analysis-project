@@ -1,5 +1,5 @@
 # Sales Management Analysis Project
-In this project I restore .bak database to SQL server, then cleaned and transform data using sql language and exported data to CSV fiels to be used in Power BI, then  Used Power BI to visualize data and show sales over time, per customers and per products.
+In this project I restore .bak database to SQL server, then cleaned and transform data using sql language and exported data to CSV files to be used in Power BI, then  Used Power BI to visualize data and show sales over time, per customers and per products.
 
 ## Busniess Problem:
 The challenge for this data analyst project is outlined below. This has been used continuously to ensure that the right data has been selected, transformed and used in the data visualization which is meant to be passed on to the business users.
