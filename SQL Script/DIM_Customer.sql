@@ -1,0 +1,37 @@
+-- Cleaned DIM_Customer Table --
+SELECT c.[CustomerKey]
+      --,[GeographyKey]
+      --,[CustomerAlternateKey]
+      --,[Title]
+      ,c.[FirstName] AS [First Name]
+      --,[MiddleName]
+      ,c.[LastName] AS [Last Name]
+	  ,CONCAT(c.FirstName,' ',c.LastName) AS [Full Name]
+      --,[NameStyle]
+      --,[BirthDate]
+      --,[MaritalStatus]
+      --,[Suffix]
+      ,CASE c.[Gender] WHEN 'M' THEN 'Male' ELSE 'Female' END AS [Gender]
+      --,[EmailAddress]
+      --,[YearlyIncome]
+      --,[TotalChildren]
+      --,[NumberChildrenAtHome]
+      --,[EnglishEducation]
+      --,[SpanishEducation]
+      --,[FrenchEducation]
+      --,[EnglishOccupation]
+      --,[SpanishOccupation]
+      --,[FrenchOccupation]
+      --,[HouseOwnerFlag]
+      --,[NumberCarsOwned]
+      --,[AddressLine1]
+      --,[AddressLine2]
+      --,[Phone]
+      ,c.[DateFirstPurchase] AS [DateFirstPurchase]
+      --,[CommuteDistance]
+	  ,g.City AS [Customer City]
+  FROM 
+	[AdventureWorksDW2019].[dbo].[DimCustomer] AS c
+  LEFT JOIN 
+	[AdventureWorksDW2019].[dbo].[DimGeography] g ON c.GeographyKey = g.GeographyKey
+  ORDER BY CustomerKey ASC
